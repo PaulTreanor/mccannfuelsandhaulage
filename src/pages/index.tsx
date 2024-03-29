@@ -70,7 +70,9 @@ const IndexPage: React.FC<PageProps> = () => {
             <p className="pb-6 text-xl">Our haulage and storage services are flexible, reliable, and cost-effective. </p>
             <p className="pb-2 text-xl">Follow us on Facebook to get updates on deals and new services:</p>
             <div className="flex justify-center mt-4">
-              <i className='bx bxl-facebook-square text-6xl text-sky-600'></i>
+            <a href="https://www.facebook.com/mccanndungannon/">
+              <i className='bx bxl-facebook-square text-6xl text-sky-600 hover:text-sky-800'></i>
+            </a>
             </div>
           </section>
 
@@ -83,7 +85,7 @@ const IndexPage: React.FC<PageProps> = () => {
             className="bg-stone-300 text-center px-8 lg:px-24 py-12"
           >
             <h2 className="text-orange-600 text-4xl font-semibold pb-8">Contact Us</h2>
-            <p className="pb-6 text-xl">Give us a ring  todiscuss your requirements, get a quote, or see if we can deliver to your area.</p>
+            <p className="pb-6 text-xl">Give us a ring to discuss your requirements, get a quote, or see if we can deliver to your area.</p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
             <div>
               <i className='bx bxs-phone text-7xl pb-6'></i>
