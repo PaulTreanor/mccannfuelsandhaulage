@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import lorry from "../images/lorry.jpg";
-import coal from "../images/oilandcoal.jpg";
+import BigLorry from '../images/carousel/big-lorry.png';
+import Loader from '../images/carousel/loader.jpg';
+import SmallLorry from '../images/carousel/small-lorry.jpg';
+import Tipper from '../images/carousel/tipper.jpg';
 
 export default function Carousel() {
   // State to keep track of the current slide
   const [currentSlide, setCurrentSlide] = useState(0);
   // An array of image sources for the carousel
-  const images = [coal, lorry, coal, lorry, coal];
+  const images = [BigLorry, Loader, SmallLorry, Tipper];
   // Length of the images array
   const totalSlides = images.length;
 
