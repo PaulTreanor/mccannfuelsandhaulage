@@ -17,5 +17,5 @@ Deployed via [[Vercel](https://vercel.com/paultreanors-projects/mccannfuelsandha
 
 ## Build thoughts
 - `npm init gatsby` w/ TailwindCSS still the easiest way to build a website
-- `bun` speeds everything up for small projects like this when it works 
-- Vercel remains to be literally 10 times easier to deploy a site with DNS. Like start to finish 20 minutes and almost all of that is waiting time for DNS stuff. I would pay €10/month per website for this service.
+- `bun` is now default choice for small projects with few dependencies.
+- Vercel still 10 times better than any other way to host a site. Literally 5 minutes to deploy a site, plus a 15 minute wait for DNS to update. Easily worth €10/month per site.
