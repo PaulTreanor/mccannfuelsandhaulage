@@ -28,6 +28,10 @@ const IndexPage: React.FC<PageProps> = () => {
           </h1>
           <p className="pb-6 text-2xl">Supplying oil, coal, and other home heating solutions to Tyrone and Armagh as well as offering haulage and storage services.</p>
           <button
+            onClick={() => {
+              const contactSection = document.getElementById('contact');
+              contactSection?.scrollIntoView({behavior: 'smooth'});
+            }}
             className="text-white bg-sky-600 hover:bg-sky-700 focus:ring-4 focus:ring-sky-300 font-medium text-xl px-5 py-2.5 me-2 mb-2"
           >
             Contact us
@@ -81,7 +85,8 @@ const IndexPage: React.FC<PageProps> = () => {
           // Contact Us Section
 
           */}
-          <section
+        <section
+            id="contact"
             className="bg-stone-300 text-center px-8 lg:px-24 py-12"
           >
             <h2 className="text-orange-600 text-4xl font-semibold pb-8">Contact Us</h2>
@@ -117,4 +122,4 @@ const IndexPage: React.FC<PageProps> = () => {
 }
 export default IndexPage
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => <title>McCann Fuels and Haulage</title>

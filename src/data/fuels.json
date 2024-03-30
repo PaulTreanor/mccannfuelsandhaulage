@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Premium Doubles",
+    "price": "£5.00 Per 25kg Bag",
+    "type": "Smoking",
+    "heat": 5,
+    "burn": 5,
+    "ash": "Low",
+    "imagePath": "images/coals/premium-doubles.webp"
+  },
+  {
+    "name": "Premium Coal",
+    "price": "£6.00 Per 25kg Bag",
+    "type": "Smoking",
+    "heat": 5,
+    "burn": 5,
+    "ash": "Low",
+    "imagePath": "images/coals/premium-coal.jpg"
+  },
+  {
+    "name": "House Coal",
+    "price": "£5.00 Per 25kg Bag",
+    "type": "Smoking",
+    "heat": 3,
+    "burn": 4,
+    "ash": "Low",
+    "imagePath": "images/coals/house-coal.jpg"
+  },
+  {
+    "name": "Lignite",
+    "price": "£8 Per 40kg Bag",
+    "type": "Smokeless",
+    "heat": 3,
+    "burn": 3,
+    "ash": "High",
+    "imagePath": "images/coals/lignite.jpg"
+  },
+  {
+    "name": "Triple",
+    "price": "£4.75 Per 25kg Bag",
+    "type": "Smoking",
+    "heat": 4,
+    "burn": 4,
+    "ash": "Medium",
+    "imagePath": "images/coals/triple.jpg"
+  },
+  {
+    "name": "Eco",
+    "price": "£6.50/bag, £60/10 bags",
+    "type": "Smoking",
+    "heat": 4,
+    "burn": 4,
+    "ash": "Low",
+    "imagePath": "images/coals/eco.webp"
+  },
+  {
+    "name": "Small Calco",
+    "price": "£8 Per 40kg Bag",
+    "type": "Smoking",
+    "heat": 5,
+    "burn": 4,
+    "ash": "Very Low",
+    "imagePath": "images/coals/small-calco.jpg"
+  },
+  {
+    "name": "Large Calco",
+    "price": "£8 Per 40kg Bag",
+    "type": "Smoking",
+    "heat": 5,
+    "burn": 3,
+    "ash": "Very Low",
+    "imagePath": "images/coals/large-calco.jpg"
+  },
+  {
+    "name": "Rough Slack",
+    "price": "£3.00 Per 25kg Bag",
+    "type": "Smoking",
+    "heat": 3,
+    "burn": 5,
+    "ash": "Low-Medium",
+    "imagePath": "images/coals/rough-slack.jpg"
+  },
+  {
+    "name": "Fine Slack",
+    "price": "£2.00 Per 25kg Bag",
+    "type": "Smoking",
+    "heat": 1,
+    "burn": 3,
+    "ash": "Medium",
+    "imagePath": "images/coals/fine-slack.jpg"
+  },
+  {
+    "name": "Briquettes",
+    "price": "€3.50/bale",
+    "type": "Smoking",
+    "heat": null,
+    "burn": null,
+    "ash": null,
+    "imagePath": "images/coals/briquettes.jpg"
+  },
+  {
+    "name": "Logs and Firelighters also available",
+    "price": null,
+    "type": null,
+    "heat": null,
+    "burn": null,
+    "ash": null,
+    "imagePath": "images/coals/firewood.jpg"
+  }
+]
