@@ -49,7 +49,7 @@ const Haulage: React.FC<PageProps> = () => {
                 <li className="text-xl">Shovel (Volvo L90) available</li>
               </ul>
             </div>
-            <div className="flex-1 flex items-center p-6">
+            <div className="flex-1 flex items-center md:p-6">
               <div className="w-full">
                 <Carousel />
               </div>
