@@ -63,7 +63,7 @@ const Haulage: React.FC<PageProps> = () => {
         */}
 
         <section className="flex flex-col md:flex-row bg-stone-100">
-            <div className="flex-1 flex items-center p-6 order-2 md:order-1">
+            <div className="flex-1 flex items-center md:p-6 order-2 md:order-1">
               <div className="w-full">
                 <img src={storage} alt="Description" className="w-full h-full object-cover rounded-lg" />
               </div>
