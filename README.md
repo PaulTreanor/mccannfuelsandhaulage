@@ -13,7 +13,7 @@ bun run dev
 
 ## Deploying 
 
-Deployed via [[Vercel](https://vercel.com/paultreanors-projects/mccannfuelsandhaulage)].
+Deployed via [Vercel](https://vercel.com/paultreanors-projects/mccannfuelsandhaulage).
 
 ## Build thoughts
 - `npm init gatsby` w/ TailwindCSS still the easiest way to build a website
